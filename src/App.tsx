@@ -3,6 +3,7 @@ import Layout from './components/Layout';
 import Home from './pages/Home';
 import Learn from './pages/Learn';
 import Practice from './pages/Practice';
+import Tutorial from './pages/Tutorial';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
+          <Route path="tutorial" element={<Tutorial />} />
           <Route path="learn" element={<Learn />} />
           <Route path="practice" element={<Practice />} />
         </Route>

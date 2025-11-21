@@ -21,8 +21,11 @@ export default function Layout() {
               <Link to="/" className={`px-3 py-2 text-sm font-medium ${isActive('/')}`}>
                 Home
               </Link>
+              <Link to="/tutorial" className={`px-3 py-2 text-sm font-medium ${isActive('/tutorial')}`}>
+                Tutorial
+              </Link>
               <Link to="/learn" className={`px-3 py-2 text-sm font-medium ${isActive('/learn')}`}>
-                Learn
+                Radicals
               </Link>
               <Link to="/practice" className={`px-3 py-2 text-sm font-medium ${isActive('/practice')}`}>
                 Practice

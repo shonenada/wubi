@@ -13,10 +13,10 @@ export default function Home() {
       
       <div className="flex gap-4 mt-8">
         <Link
-          to="/learn"
+          to="/tutorial"
           className="px-8 py-3 text-base font-medium text-white bg-blue-600 rounded-md shadow hover:bg-blue-700 md:text-lg"
         >
-          Start Learning
+          Start Tutorial
         </Link>
         <Link
           to="/practice"
